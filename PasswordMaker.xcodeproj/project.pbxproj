@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB765632571869400D8F181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB765622571869400D8F181 /* AppDelegate.swift */; };
+		EEB765652571869400D8F181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB765642571869400D8F181 /* ViewController.swift */; };
+		EEB765672571869600D8F181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB765662571869600D8F181 /* Assets.xcassets */; };
+		EEB7656A2571869600D8F181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB765682571869600D8F181 /* Main.storyboard */; };
+		EEB765762571869600D8F181 /* PasswordMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB765752571869600D8F181 /* PasswordMakerTests.swift */; };
+		EEB765812571869600D8F181 /* PasswordMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB765802571869600D8F181 /* PasswordMakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB765722571869600D8F181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB765572571869400D8F181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB7655E2571869400D8F181;
+			remoteInfo = PasswordMaker;
+		};
+		EEB7657D2571869600D8F181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB765572571869400D8F181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB7655E2571869400D8F181;
+			remoteInfo = PasswordMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEB7655F2571869400D8F181 /* PasswordMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB765622571869400D8F181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEB765642571869400D8F181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEB765662571869600D8F181 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB765692571869600D8F181 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB7656B2571869600D8F181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB7656C2571869600D8F181 /* PasswordMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasswordMaker.entitlements; sourceTree = "<group>"; };
+		EEB765712571869600D8F181 /* PasswordMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB765752571869600D8F181 /* PasswordMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordMakerTests.swift; sourceTree = "<group>"; };
+		EEB765772571869600D8F181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB7657C2571869600D8F181 /* PasswordMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB765802571869600D8F181 /* PasswordMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordMakerUITests.swift; sourceTree = "<group>"; };
+		EEB765822571869600D8F181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB7655C2571869400D8F181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7656E2571869600D8F181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB765792571869600D8F181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB765562571869400D8F181 = {
+			isa = PBXGroup;
+			children = (
+				EEB765612571869400D8F181 /* PasswordMaker */,
+				EEB765742571869600D8F181 /* PasswordMakerTests */,
+				EEB7657F2571869600D8F181 /* PasswordMakerUITests */,
+				EEB765602571869400D8F181 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB765602571869400D8F181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB7655F2571869400D8F181 /* PasswordMaker.app */,
+				EEB765712571869600D8F181 /* PasswordMakerTests.xctest */,
+				EEB7657C2571869600D8F181 /* PasswordMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB765612571869400D8F181 /* PasswordMaker */ = {
+			isa = PBXGroup;
+			children = (
+				EEB765622571869400D8F181 /* AppDelegate.swift */,
+				EEB765642571869400D8F181 /* ViewController.swift */,
+				EEB765662571869600D8F181 /* Assets.xcassets */,
+				EEB765682571869600D8F181 /* Main.storyboard */,
+				EEB7656B2571869600D8F181 /* Info.plist */,
+				EEB7656C2571869600D8F181 /* PasswordMaker.entitlements */,
+			);
+			path = PasswordMaker;
+			sourceTree = "<group>";
+		};
+		EEB765742571869600D8F181 /* PasswordMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB765752571869600D8F181 /* PasswordMakerTests.swift */,
+				EEB765772571869600D8F181 /* Info.plist */,
+			);
+			path = PasswordMakerTests;
+			sourceTree = "<group>";
+		};
+		EEB7657F2571869600D8F181 /* PasswordMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB765802571869600D8F181 /* PasswordMakerUITests.swift */,
+				EEB765822571869600D8F181 /* Info.plist */,
+			);
+			path = PasswordMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB7655E2571869400D8F181 /* PasswordMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB765852571869600D8F181 /* Build configuration list for PBXNativeTarget "PasswordMaker" */;
+			buildPhases = (
+				EEB7655B2571869400D8F181 /* Sources */,
+				EEB7655C2571869400D8F181 /* Frameworks */,
+				EEB7655D2571869400D8F181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordMaker;
+			productName = PasswordMaker;
+			productReference = EEB7655F2571869400D8F181 /* PasswordMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB765702571869600D8F181 /* PasswordMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB765882571869600D8F181 /* Build configuration list for PBXNativeTarget "PasswordMakerTests" */;
+			buildPhases = (
+				EEB7656D2571869600D8F181 /* Sources */,
+				EEB7656E2571869600D8F181 /* Frameworks */,
+				EEB7656F2571869600D8F181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB765732571869600D8F181 /* PBXTargetDependency */,
+			);
+			name = PasswordMakerTests;
+			productName = PasswordMakerTests;
+			productReference = EEB765712571869600D8F181 /* PasswordMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEB7657B2571869600D8F181 /* PasswordMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB7658B2571869600D8F181 /* Build configuration list for PBXNativeTarget "PasswordMakerUITests" */;
+			buildPhases = (
+				EEB765782571869600D8F181 /* Sources */,
+				EEB765792571869600D8F181 /* Frameworks */,
+				EEB7657A2571869600D8F181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB7657E2571869600D8F181 /* PBXTargetDependency */,
+			);
+			name = PasswordMakerUITests;
+			productName = PasswordMakerUITests;
+			productReference = EEB7657C2571869600D8F181 /* PasswordMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB765572571869400D8F181 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EEB7655E2571869400D8F181 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					EEB765702571869600D8F181 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EEB7655E2571869400D8F181;
+					};
+					EEB7657B2571869600D8F181 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EEB7655E2571869400D8F181;
+					};
+				};
+			};
+			buildConfigurationList = EEB7655A2571869400D8F181 /* Build configuration list for PBXProject "PasswordMaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB765562571869400D8F181;
+			productRefGroup = EEB765602571869400D8F181 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB7655E2571869400D8F181 /* PasswordMaker */,
+				EEB765702571869600D8F181 /* PasswordMakerTests */,
+				EEB7657B2571869600D8F181 /* PasswordMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB7655D2571869400D8F181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB765672571869600D8F181 /* Assets.xcassets in Resources */,
+				EEB7656A2571869600D8F181 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7656F2571869600D8F181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7657A2571869600D8F181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB7655B2571869400D8F181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB765652571869400D8F181 /* ViewController.swift in Sources */,
+				EEB765632571869400D8F181 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB7656D2571869600D8F181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB765762571869600D8F181 /* PasswordMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB765782571869600D8F181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB765812571869600D8F181 /* PasswordMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB765732571869600D8F181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB7655E2571869400D8F181 /* PasswordMaker */;
+			targetProxy = EEB765722571869600D8F181 /* PBXContainerItemProxy */;
+		};
+		EEB7657E2571869600D8F181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB7655E2571869400D8F181 /* PasswordMaker */;
+			targetProxy = EEB7657D2571869600D8F181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB765682571869600D8F181 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB765692571869600D8F181 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB765832571869600D8F181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEB765842571869600D8F181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EEB765862571869600D8F181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PasswordMaker/PasswordMaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C38KX7UXY9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PasswordMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elliotmaisl.PasswordMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EEB765872571869600D8F181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PasswordMaker/PasswordMaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C38KX7UXY9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PasswordMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elliotmaisl.PasswordMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EEB765892571869600D8F181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C38KX7UXY9;
+				INFOPLIST_FILE = PasswordMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = elliotmaisl.PasswordMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordMaker.app/Contents/MacOS/PasswordMaker";
+			};
+			name = Debug;
+		};
+		EEB7658A2571869600D8F181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C38KX7UXY9;
+				INFOPLIST_FILE = PasswordMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = elliotmaisl.PasswordMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordMaker.app/Contents/MacOS/PasswordMaker";
+			};
+			name = Release;
+		};
+		EEB7658C2571869600D8F181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C38KX7UXY9;
+				INFOPLIST_FILE = PasswordMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elliotmaisl.PasswordMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PasswordMaker;
+			};
+			name = Debug;
+		};
+		EEB7658D2571869600D8F181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C38KX7UXY9;
+				INFOPLIST_FILE = PasswordMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elliotmaisl.PasswordMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PasswordMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB7655A2571869400D8F181 /* Build configuration list for PBXProject "PasswordMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB765832571869600D8F181 /* Debug */,
+				EEB765842571869600D8F181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB765852571869600D8F181 /* Build configuration list for PBXNativeTarget "PasswordMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB765862571869600D8F181 /* Debug */,
+				EEB765872571869600D8F181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB765882571869600D8F181 /* Build configuration list for PBXNativeTarget "PasswordMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB765892571869600D8F181 /* Debug */,
+				EEB7658A2571869600D8F181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB7658B2571869600D8F181 /* Build configuration list for PBXNativeTarget "PasswordMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB7658C2571869600D8F181 /* Debug */,
+				EEB7658D2571869600D8F181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB765572571869400D8F181 /* Project object */;
+}
