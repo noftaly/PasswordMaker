@@ -13,6 +13,8 @@
 		EEB7656A2571869600D8F181 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB765682571869600D8F181 /* Main.storyboard */; };
 		EEB765762571869600D8F181 /* PasswordMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB765752571869600D8F181 /* PasswordMakerTests.swift */; };
 		EEB765812571869600D8F181 /* PasswordMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB765802571869600D8F181 /* PasswordMakerUITests.swift */; };
+		EEB7659B2571AC7000D8F181 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EEB765992571AC7000D8F181 /* LICENSE */; };
+		EEB7659C2571AC7000D8F181 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EEB7659A2571AC7000D8F181 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		EEB7657C2571869600D8F181 /* PasswordMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB765802571869600D8F181 /* PasswordMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordMakerUITests.swift; sourceTree = "<group>"; };
 		EEB765822571869600D8F181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB765992571AC7000D8F181 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EEB7659A2571AC7000D8F181 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 		EEB765562571869400D8F181 = {
 			isa = PBXGroup;
 			children = (
+				EEB765992571AC7000D8F181 /* LICENSE */,
+				EEB7659A2571AC7000D8F181 /* README.md */,
 				EEB765612571869400D8F181 /* PasswordMaker */,
 				EEB765742571869600D8F181 /* PasswordMakerTests */,
 				EEB7657F2571869600D8F181 /* PasswordMakerUITests */,
@@ -227,7 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB7659B2571AC7000D8F181 /* LICENSE in Resources */,
 				EEB765672571869600D8F181 /* Assets.xcassets in Resources */,
+				EEB7659C2571AC7000D8F181 /* README.md in Resources */,
 				EEB7656A2571869600D8F181 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
