@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE16F118257263EF006CFC66 /* OnlyIntegerFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE16F117257263EF006CFC66 /* OnlyIntegerFormatter.swift */; };
 		EEB765632571869400D8F181 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB765622571869400D8F181 /* AppDelegate.swift */; };
 		EEB765652571869400D8F181 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB765642571869400D8F181 /* ViewController.swift */; };
 		EEB765672571869600D8F181 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB765662571869600D8F181 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE16F117257263EF006CFC66 /* OnlyIntegerFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyIntegerFormatter.swift; sourceTree = "<group>"; };
 		EEB7655F2571869400D8F181 /* PasswordMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB765622571869400D8F181 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEB765642571869400D8F181 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				EEB765682571869600D8F181 /* Main.storyboard */,
 				EEB7656B2571869600D8F181 /* Info.plist */,
 				EEB7656C2571869600D8F181 /* PasswordMaker.entitlements */,
+				EE16F117257263EF006CFC66 /* OnlyIntegerFormatter.swift */,
 			);
 			path = PasswordMaker;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB765652571869400D8F181 /* ViewController.swift in Sources */,
+				EE16F118257263EF006CFC66 /* OnlyIntegerFormatter.swift in Sources */,
 				EEB765632571869400D8F181 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

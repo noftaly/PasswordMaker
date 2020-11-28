@@ -16,21 +16,21 @@ let characterPool = [
 ]
 
 class ViewController: NSViewController {
-    @IBOutlet weak var lengthSlider: NSSlider!
     @IBOutlet weak var containsUppercaseCheckbox: NSButton!
     @IBOutlet weak var containsNumbersCheckbox: NSButton!
     @IBOutlet weak var containsSymbolsCheckbox: NSButton!
+    @IBOutlet weak var lengthTextfield: NSTextField!
     @IBOutlet weak var outputPassword: NSTextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        lengthTextfield.formatter = OnlyIntegerFormatter()
     }
 
     override var representedObject: Any? {
         didSet {
-        // Update the view, if already loaded.
+            // Update the view, if already loaded.
         }
     }
 
@@ -57,7 +57,8 @@ class ViewController: NSViewController {
         }
 
         var password = ""
-        for _ in 0...lengthSlider.intValue {
+        guard let size = Int(lengthTextfield.stringValue) else { return }
+        for _ in 0..<size {
             password.append(pool.randomElement() ?? "-")
         }
 
